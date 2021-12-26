@@ -1,0 +1,22 @@
+import 'dart:io';
+void main() {
+	print("Enter Marks");
+  var m=int.parse(stdin.readLineSync()!);
+  print("Mark is $m");
+  if(m>=80){
+  print("Grade is A");
+  }
+  else if(m>=70){
+  print("Grade is B");
+  }
+else if(m>=60){
+
+print("Grade is C");
+}  
+else if(m>=50){
+print("Grade is D");
+}
+else{
+print("You are Fail");
+};
+}
